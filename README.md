@@ -11,6 +11,7 @@ This repository contains the EFI folder for MSI GF75 thin I7-10750H Hackintosh. 
 
 # Image
 ![About This Mac](/assets/ss-1.png)
+![System Update](/assets/ss-2.png)
 
 # System Specification
 - **Model**: MSI GF75 thin 10SCXR
