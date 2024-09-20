@@ -1,6 +1,10 @@
+
 # Hackintosh EFI Folder for MSI GF75 thin I7-10750H
-Hackintosh EFI Folder for MSI GF75 thin I7-10750H
+Hackintosh EFI Folder for MSI GF75 thin I7-10750H.
+
 This README is not complete yet. I will update it later.
+
+Please give a star if this EFI has helped you.
 
 # Introduction
 This repository contains the EFI folder for MSI GF75 thin I7-10750H Hackintosh. This EFI folder is based on OpenCore 1.0.1 and macOS Sequoia 15.0 Beta. This EFI folder is specifically for MSI GF75 thin I7-10750H, but it can be used for other laptops with similar hardware. This EFI folder is for educational purposes only. I am not responsible for any damage caused to your device. Please read the OpenCore documentation before using this EFI folder.
@@ -20,8 +24,8 @@ This repository contains the EFI folder for MSI GF75 thin I7-10750H Hackintosh. 
 - **RAM**: 16 GB 2933 MHz DDR4
 - **Storage**: 1TB NVMe SSD (Crucial P3 1TB PCIe M.2 2280 SSD)
 - **Audio Codec**: Realtek ALC233
-- **Ethernet**: `update later`
-- **Wi-Fi/BT**: `update later`
+- **Ethernet**: Realtek RealtekRTL8111
+- **Wi-Fi/BT**: Intel(R) Wi-Fi 6 AX201 160MHz
 - **BIOS Version**: `latest`
 - **macOS Version**: Sequoia 15.0 Beta
 
@@ -30,20 +34,20 @@ This repository contains the EFI folder for MSI GF75 thin I7-10750H Hackintosh. 
 - [x] Intel UHD Graphics 630
 - [x] Audio (ALC233)
 - [x] Ethernet (RTL8168/8111)
-- [x] Wi-Fi (Intel Wireless-AC 9560) using itlwm + HeliPort
-- [x] Bluetooth (Intel Wireless-AC 9560)
-- [x] USB Ports (USB 3.0 working, not mapped type-C)
+- [x] Wi-Fi: using itlwm + HeliPort
+- [x] Bluetooth
+- [x] USB Ports (Mapped All Ports)
 - [x] Battery Status
 - [x] Sleep/Wake
 - [x] Brightness Control
-- [x] Trackpad
+- [x] Trackpad (can't disable via fn, will fix later)
 - [x] Webcam
 - [x] Microphone
 - [x] iMessage, FaceTime, App Store, iCloud
 
 # What doesn't work
 - [ ] HDMI (Fixable later)
-- [ ] Type-C (Fixable later)
+- [x] ~~Type-C (Fixable later)~~ `Now working`
 - [ ] SD Card Reader (Not tested)
 - [ ] DRM (Not tested)
 
